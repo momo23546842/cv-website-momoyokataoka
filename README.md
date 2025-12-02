@@ -27,4 +27,5 @@ I used **v0.dev** to generate the core structure and design.
 - **Refinement:** I iterated on the design to ensure the avatar integration and layout met professional standards.
 
 ## 📸 Screenshots
-*(Please refer to the attached screenshots in the submission for Dark/Light mode demonstration)*
+<img src="images/lightScreenshot 2025-12-02 140511.png" width="600" alt="Node.js version output">
+<img src="images/nightScreenshot 2025-12-02 140541.png" width="600" alt="Node.js version output">
