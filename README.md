@@ -1,30 +1,30 @@
-# CV Website
+# AI-Generated Professional CV Website
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+## 📋 Overview
+This is a professional CV website generated using v0.dev AI, built with **Next.js 15** and **Shadcn UI**. Ideally designed for a clean, modern, and professional aesthetic, featuring a fully responsive layout and dark/light mode functionality.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/mkataoka53-2017s-projects/v0-cv-website-ux)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/pTscRHPvZFx)
+## 🚀 Live Demo
+- **Vercel URL:** https://cv-website-iota-red.vercel.app/
+- **v0 Project Link:**　https://v0.app/chat/cv-website-pTscRHPvZFx
 
-## Overview
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+## 🛠️ Tech Stack
+- **AI Generator:** v0.dev
+- **Framework:** Next.js 15 (App Router)
+- **UI Components:** Shadcn UI
+- **Styling:** Tailwind CSS
+- **Deployment:** Vercel
 
-## Deployment
+## ✨ Features
+- **Comprehensive Profile:** Bio, Skills, Experience, and Education sections.
+- **Dark/Light Mode:** Fully functional theme toggle using `next-themes`.
+- **Responsive Design:** Optimized for both desktop and mobile devices.
+- **Personalized Content:** Custom avatar and detailed career timeline.
 
-Your project is live at:
+## 🤖 AI Generation Approach
+I used **v0.dev** to generate the core structure and design.
+- **Prompt Strategy:** I provided specific details about my background as a Registered Dietitian transitioning to IT, and requested a "simple, modern, and feminine" design with specific component requirements like the dark mode toggle.
+- **Refinement:** I iterated on the design to ensure the avatar integration and layout met professional standards.
 
-**[https://vercel.com/mkataoka53-2017s-projects/v0-cv-website-ux](https://vercel.com/mkataoka53-2017s-projects/v0-cv-website-ux)**
-
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.app/chat/pTscRHPvZFx](https://v0.app/chat/pTscRHPvZFx)**
-
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## 📸 Screenshots
+*(Please refer to the attached screenshots in the submission for Dark/Light mode demonstration)*
