@@ -1,7 +1,7 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Badge } from "@/components/ui/badge"
 import { ThemeToggle } from "@/components/theme-toggle"
-import { Mail, Github, Linkedin } from "lucide-react"
+import { Mail, Github, Linkedin, ExternalLink } from "lucide-react"
 
 export default function Home() {
   return (
@@ -162,6 +162,80 @@ export default function Home() {
                 <p className="text-foreground/60 text-lg">Nagoya Gakugei University, Japan</p>
                 <p className="text-foreground/80 font-medium mt-2">Registered Dietitian National Qualification</p>
                 <p className="text-sm text-foreground/50 uppercase tracking-wider mt-2">2022</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Projects Section */}
+        <section className="mb-32">
+          <h2 className="text-4xl md:text-5xl font-serif font-light text-foreground mb-12 tracking-tight">Projects</h2>
+          <div className="space-y-16">
+            {/* Web Development Assessment */}
+            <div className="border-l-2 border-foreground/20 pl-8 md:pl-12">
+              <div className="flex items-start justify-between gap-4 mb-4">
+                <h3 className="text-2xl md:text-3xl font-serif font-light text-foreground tracking-tight">
+                  Web Development Assessment
+                </h3>
+                <a
+                  href="https://github.com/momo23546842/school-Website-project"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-foreground/60 hover:text-foreground transition-colors group flex-shrink-0"
+                  aria-label="View Web Development Assessment on GitHub"
+                >
+                  <ExternalLink className="h-5 w-5 group-hover:scale-110 transition-transform" />
+                </a>
+              </div>
+              <p className="text-foreground/80 leading-relaxed text-lg max-w-3xl text-pretty mb-4">
+                Developed a comprehensive e-commerce website for a fictional bakery. Key features include an online
+                ordering system with a shopping cart and a job application portal. Integrated a MySQL database to
+                securely store and manage customer order history and applicant data.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {["HTML", "CSS", "JavaScript", "PHP", "MySQL"].map((tech) => (
+                  <Badge
+                    key={tech}
+                    variant="secondary"
+                    className="px-3 py-1 text-sm font-light bg-foreground/5 border-foreground/10"
+                  >
+                    {tech}
+                  </Badge>
+                ))}
+              </div>
+            </div>
+
+            {/* XML & XSLT Design Project */}
+            <div className="border-l-2 border-foreground/20 pl-8 md:pl-12">
+              <div className="flex items-start justify-between gap-4 mb-4">
+                <h3 className="text-2xl md:text-3xl font-serif font-light text-foreground tracking-tight">
+                  XML & XSLT Design Project
+                </h3>
+                <a
+                  href="https://github.com/momo23546842/xml-project"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-foreground/60 hover:text-foreground transition-colors group flex-shrink-0"
+                  aria-label="View XML & XSLT Design Project on GitHub"
+                >
+                  <ExternalLink className="h-5 w-5 group-hover:scale-110 transition-transform" />
+                </a>
+              </div>
+              <p className="text-foreground/80 leading-relaxed text-lg max-w-3xl text-pretty mb-4">
+                Designed structured XML documents for a bakery advertisement and a cafe menu. Utilized XSLT for data
+                transformation and styling to create a rich visual presentation, incorporating multimedia elements like
+                background music and animated GIFs.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {["XML", "XSLT", "CSS"].map((tech) => (
+                  <Badge
+                    key={tech}
+                    variant="secondary"
+                    className="px-3 py-1 text-sm font-light bg-foreground/5 border-foreground/10"
+                  >
+                    {tech}
+                  </Badge>
+                ))}
               </div>
             </div>
           </div>
