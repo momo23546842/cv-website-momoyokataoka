@@ -53,7 +53,7 @@ export default function Home() {
                 Frontend & Frameworks
               </h3>
               <div className="flex flex-wrap gap-3">
-                {["HTML", "CSS", "JavaScript (Learning)", "React", "Next.js"].map((skill) => (
+                {["HTML", "CSS", "JavaScript (Learning)", "React (Learning)", "Next.js (Learning)"].map((skill) => (
                   <Badge
                     key={skill}
                     variant="outline"
@@ -71,7 +71,7 @@ export default function Home() {
                 Backend & Database
               </h3>
               <div className="flex flex-wrap gap-3">
-                {["Python (Learning)", "PHP (Learning)", "MySQL"].map((skill) => (
+                {["Python (Learning)", "PHP (Learning)", "MySQL (Learning)"].map((skill) => (
                   <Badge
                     key={skill}
                     variant="outline"
@@ -89,7 +89,7 @@ export default function Home() {
                 Tools & Deployment
               </h3>
               <div className="flex flex-wrap gap-3">
-                {["Git", "Vercel"].map((skill) => (
+                {["Git (Learning)", "Vercel (Learning)"].map((skill) => (
                   <Badge
                     key={skill}
                     variant="outline"
